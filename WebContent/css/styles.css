@@ -1,0 +1,295 @@
+/* Reset CSS */
+*, *:after, *:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: century gothic;
+	line-height: 1.5;
+}
+
+#nav {
+	
+}
+
+#nav ul {
+	font: 12px arial, tahoma, verdana;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav ul li {
+	float: left;
+	display: block;
+}
+
+#nav ul li a {
+	color: #555;
+	background: #fff;
+	text-decoration: none;
+	margin: 0 1px;
+	padding: 10px 20px;
+	border-top: 1px solid #555;
+	display: block;
+}
+
+#nav li ul {
+	display: none;
+}
+
+#nav ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+
+#nav li:hover ul {
+	display: block;
+}
+
+#nav li:hover li {
+	float: none;
+	font-size: 12px;
+}
+
+#nav li:hover a {
+	background: #333;
+	color: #fff;
+}
+
+#nav li:hover li a:hover {
+	background: #001;
+}
+#meio{
+	height: 300px;
+	padding-top:50px;
+	background: #000;
+}
+#meio h3 {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 800;
+	background: #fff;
+	text-align: left;
+	display: block;
+}
+
+#t1 {
+	z-index: 10;
+	background-color: #fff;
+	padding-bottom: 20px;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	'
+}
+
+#t2 {
+	z-index: 10;
+	background-color: #fff;
+	position: relative;
+	padding-bottom: 10px;
+	top: 10px;
+	left: 0px;
+	display: none;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 800;
+	text-align: left;
+}
+
+#meio legend {
+	text-align: center;
+}
+
+/* Cabeçalho */
+h1 {
+	padding: 5px;
+	background: #000;
+}
+
+/* p do Cabeçalho */
+h1 p {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+	margin-left: 30px;
+}
+
+/* Barra titulo Vôo */
+h2 {
+	margin-top: 40px;
+	color: #eee;
+	display: block;
+	font-weight: 800;
+	background: #000;
+	padding-bottom: 3px;
+	font: 20px arial, tahoma, verdana;
+	list-style: none;
+}
+
+/* Titulo Vôo*/
+h2 p {
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 30px;
+	text-align: left;
+}
+
+/* p1 Slogan */
+h3 p1 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	text-align: left;
+}
+
+/* p2 Slogan */
+h3 p2 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	margin-left: 30px;
+	text-align: left;
+}
+
+/* p3 Slogan */
+h3 p3 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	text-align: left;
+}
+
+/* p4 Slogan */
+h3 p4 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	text-align: left;
+}
+
+/* p5 Slogan */
+h3 p5 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	text-align: left;
+}
+
+/* p6 Slogan */
+h3 p6 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3%;
+	text-align: left;
+}
+
+/* p7 Slogan */
+h3 p7 {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	padding-right: 20px margin-top: 3%;
+	text-align: left;
+}
+
+/* Espaço entre menu e slide superior */
+h4 p {
+	margin-bottom: -1%;
+}
+
+#grupo h5 {
+	color: #eee;
+	display: block;
+	font-size: 15px;
+	background: #000;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	text-align: Center;
+}
+
+#grupo h5 p {
+	color: #eee;
+	display: block;
+	font-size: 30px;
+	background: #000;
+	padding-bottom: 50px;
+	text-align: Center;
+}
+
+/* Rodapé */
+footer {
+	padding-top: 20%;
+	text-align: left;
+	padding: 4px;
+	margin: 10;
+	background: #000;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+/* p do Rodapé */
+footer p1 {
+	color: #fff;
+	font-size: 10px;
+	font-weight: 300px;
+	margin-left: 5%;
+}
+
+fieldset {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+input.button {
+	font-size: 16px;
+	color: #787878;
+	padding: 4px 60px;
+	background: -moz-linear-gradient(top, #e0e0e0 0%, #ffffff);
+	background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0),
+		to(#ffffff));
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #c4c7c3;
+	-moz-box-shadow: 0px 1px 4px rgba(000, 000, 000, 0.2), inset 0px 0px 0px
+		rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: 0px 1px 4px rgba(000, 000, 000, 0.2), inset 0px 0px
+		0px rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 1px 4px rgba(000, 000, 000, 0.2), inset 0px 0px 0px
+		rgba(255, 255, 255, 0.3);
+	text-shadow: 0px -1px 0px rgba(000, 000, 000, 1), 0px 1px 0px
+		rgba(255, 255, 255, 0.3);
+}
